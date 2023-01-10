@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<head>
+    <title>Kartu-Lebaran-AgengDwiMukti</title>
+    <div>
+        <script type="text/javascript">
+            var i,j,y;
+
+            for(i=10;i>0;i--){
+                for(j=1;j<=i-1;j++){
+                document.write("&nbsp&nbsp&nbsp");
+                }
+
+                    for(y=1;y<=10-i+1;y++){
+                    document.write(" * ");
+                    }
+
+                        for(l=1;l<=10-i;l++){
+                        document.write(" * ");
+                        }
+            document.write("<br>");
+            }
+
+            for(i=1;i<=10;i++){
+                for(j=1;j<=i;j++){
+                document.write("&nbsp&nbsp&nbsp");
+                }
+                    for(y=1;y<=10-i;y++){
+                    document.write(" * ");
+                    }
+                        for(l=1;l<10-i;l++){
+                        document.write(" * ");
+                        }
+            document.write(" <br> ");
+            }
+        </script>
+    </div>
+
+</head>
+
+<body>
+    <div class='greeting-text'> 
+        <h1>.: Selamat Hari Raya Idul Fitri :.</h1>
+        <br>
+        <h1 style="margin-top: -20px;">.: Mohon maaf lahir dan batin :.</h1>
+    </div>
+</body>
+</html>
